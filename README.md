@@ -79,7 +79,7 @@ This operator is built on top of the **llm-d (Large Language Model Distributed) 
 Run the provided installation script:
 
 ```bash
-cd /path/to/inference-scheduler-operator
+cd /path/to/llm-d-inference-scheduler-operator
 ./hack/install-prerequisites.sh
 ```
 
@@ -129,7 +129,7 @@ make run
 **Option B: Via OLM (Production)**
 
 ```bash
-operator-sdk run bundle quay.io/aneeshkp/inference-scheduler-operator-bundle:v0.0.1
+operator-sdk run bundle quay.io/{your-repo}/llm-d-inference-scheduler-operator-bundle:v0.0.1
 ```
 
 ### 3. Create HuggingFace Token Secret
